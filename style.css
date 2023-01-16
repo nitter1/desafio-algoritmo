@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Tahoma";
+    font-size: 17px;
+}
+
+@font-face {
+    font-family: Sofia;
+    src: url(sofia.ttf) format('truetype');
+  }
+
+@font-face {
+    font-family: Lobster;
+    src: url(Lobster.ttf) format('truetype');
+  }
+
+header {
+    background-color: #FF6A28;
+    height: 13vh;
+}
+
+#logo {
+    font-family: "Sofia", sans-serif;
+    font-size: 45px;
+    color: white;
+    letter-spacing: 2.5px;
+    text-shadow: 0 1px 1px #000, 0 -1px 1px #000, 1px 0 1px #000, -1px 0 1px #000;
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150vh;
+    background-color: #F0F0F0;
+}
+
+.sectionOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: white;
+    padding: 1rem;
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #DD8F06;
+    border-radius: 1rem;
+
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Lobster", sans-serif;
+    height: 8vh;
+    font-size: 40px;
+    letter-spacing: 5px;
+    padding-bottom: 5rem;
+}
+
+#listMain {
+    padding-left: 3rem;
+}
+
+.listTitle {
+    margin: 1rem;
+}
