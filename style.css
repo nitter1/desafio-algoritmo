@@ -6,10 +6,7 @@
     font-size: 17px;
 }
 
-@font-face {
-    font-family: Sofia;
-    src: url(Sofia.ttf) format('truetype');
-  }
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 
 @font-face {
     font-family: Lobster;
@@ -22,7 +19,7 @@ header {
 }
 
 #logo {
-    font-family: "Sofia", sans-serif;
+    font-family: 'Sofia', cursive;
     font-size: 45px;
     color: white;
     letter-spacing: 2.5px;
