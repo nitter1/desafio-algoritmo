@@ -20,6 +20,7 @@ header {
 
 #logo {
     font-family: 'Sofia', cursive;
+    font-weight: 400;
     font-size: 45px;
     color: white;
     letter-spacing: 2.5px;
