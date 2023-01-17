@@ -7,7 +7,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 @font-face {
     font-family: Lobster;
     src: url(Lobster.ttf) format('truetype');
@@ -36,6 +36,7 @@ main {
     flex-direction: column;
     height: 200vh;
     background-color: #F0F0F0;
+    height: 200vh;
 }
 
 .sectionOne {
@@ -76,4 +77,16 @@ main {
 
 .listTitle {
     margin: 1rem;
+}
+
+#footer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+footer {
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
